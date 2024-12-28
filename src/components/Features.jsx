@@ -24,7 +24,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="bg-white py-16">
+    <section id="features" className="bg-white py-16">
       <div className="container mx-auto text-center px-6 max-w-6xl">
         <h2 className="text-3xl font-bold text-gray-800">Our Features</h2>
         <p className="text-gray-600 mt-4">

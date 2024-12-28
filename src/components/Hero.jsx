@@ -3,7 +3,7 @@ import heroIllustration from "../assets/heroIllustration.svg";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-50 py-16">
+    <section id='home' className="bg-gray-50 py-16">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6 space-y-8 md:space-y-0 max-w-6xl">
         
         <div className="text-center md:text-left max-w-lg mt-4 md:mt-0">

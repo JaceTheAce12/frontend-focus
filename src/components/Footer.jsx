@@ -1,6 +1,6 @@
 import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-import businessLogo from "../assets/businessLogo.png";
+import businessLogoWhite from "../assets/businessLogoWhite.svg";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           <div className="text-xl font-bold text-white">
           <a href="/">
-              <img src={businessLogo} alt="Brand Logo" className="h-14" />
+              <img src={businessLogoWhite} alt="Brand Logo" className="h-10" />
             </a>
           </div>
 
